@@ -1,0 +1,32 @@
+GIT
+  remote: git://github.com/libgit2/rugged.git
+  revision: 06330b84a54efbd2c8933184fb1f2dfd6e47fe50
+  submodules: true
+  specs:
+    rugged (0.24.0b11)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    method_source (0.8.2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.8.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    slop (3.6.0)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  pry-doc
+  rugged!
+
+BUNDLED WITH
+   1.10.6
